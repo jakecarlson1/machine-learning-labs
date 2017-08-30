@@ -3,3 +3,6 @@
 
 # DS Store
 .DS_Store
+
+# original data file
+data/globalterrorismdb_0617dist.csv
