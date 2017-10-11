@@ -13,6 +13,9 @@ Exploring CIFAR-10 images of cars and trucks for distinguishing features between
 ## Lab 4 - Extending Logistic Regression
 Implementing logistic regression in an one-vs-all fashion to perform multi-class classification on the Global Terrorism Database. Our hope is that local law enforcement would be able to use this model to more accurately tailor their training programs to the attack profile for their city. We will compare our implementation to scikit-learn.
 
+## Lab 5 - Evaluation and Multi-Layer Perceptron
+Implementing a multi-layer perceptron to perform classification of truck and automobile images in the CIFAR-10 data set.
+
 ## ICA 1
 Using numpy and scikit-learn to perform linear classification on a diabetes data set.
 
