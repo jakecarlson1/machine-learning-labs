@@ -17,7 +17,10 @@ Implementing logistic regression in an one-vs-all fashion to perform multi-class
 Implementing a multi-layer perceptron to perform classification of truck and automobile images in the CIFAR-10 data set.
 
 ## Lab 6 - Wide and Deep Networks
-Using Keras and TensorFlow to implement a classification network with a wide branch and a deep branch. Two deep branch architectures are proposed. The best architecture is choosen and compared to our custom multi-layer perceptron implementation from Lab 5.
+Using Keras and TensorFlow to implement a classification network with a wide branch and a deep branch. Two deep branch architectures are proposed. The best architecture is choosen and compared to a simple multi-layer perceptron.
+
+## Lab 7 - Convolutional Neural Networks
+Using Keras to develop a convolutional neural network for classification of car and truck images from the CIFAR-10 data set. Two CNNs are developed and compared to a simple multi-layer perceptron.
 
 ## ICA 1
 Using numpy and scikit-learn to perform linear classification on a diabetes data set.
