@@ -22,6 +22,9 @@ Using Keras and TensorFlow to implement a classification network with a wide bra
 ## Lab 7 - Convolutional Neural Networks
 Using Keras to develop a convolutional neural network for classification of car and truck images from the CIFAR-10 data set. Two CNNs are developed and compared to a simple multi-layer perceptron.
 
+## Lab 8 - Recurrent Neural Networks
+Using Keras to develop a recurrent neural network architecture for classification of Stack Overflow questions. Based on the question title, body, code, and post time, we try to determine how long it will take for a question to get answered. Two RNNs are developed using LSTM and GRU recurrent architectures.
+
 ## ICA 1
 Using numpy and scikit-learn to perform linear classification on a diabetes data set.
 
