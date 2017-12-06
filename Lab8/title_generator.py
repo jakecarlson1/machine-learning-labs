@@ -55,7 +55,7 @@ model.add(Dropout(0.2))
 model.add(Dense(y.shape[1], activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
-#define the checkpoint
+# define the checkpoint
 filepath="saved_weights.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
@@ -63,8 +63,8 @@ callbacks_list = [checkpoint]
 # fit the model
 model.fit(X, y, epochs=1, batch_size=128, callbacks=callbacks_list)
 
-# inport the model from the file
-model.load_weights(filename)
+# import the model from the file
+model.load_weights(filepath)
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 # open a file to write too
